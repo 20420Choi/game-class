@@ -1,7 +1,7 @@
 {
     "[python]": {
         "editor.defaultFormatter": "ms-python.python",
-        "editor.inlayHints.enabled": "onUnlessPressed"
+        "editor.inlayHints.enabled": "offUnlessPressed"
     },
     "black-formatter.importStrategy": "fromEnvironment",
     "editor.defaultFormatter": "ms-python.python",
@@ -12,7 +12,7 @@
     "editor.minimap.size": "fit",
     "files.autoSave": "onFocusChange",
     "python.analysis.autoFormatStrings": true,
-    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoImportCompletions": false,
     "python.analysis.completeFunctionParens": true,
     "python.analysis.enablePytestSupport": false,
     "python.analysis.exclude": [
@@ -34,10 +34,18 @@
     "python.terminal.activateEnvInCurrentTerminal": true,
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "terminal.integrated.scrollback": 10000,
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 2.5,
     "workbench.colorTheme": "GitHub Dark Default",
     "python.analysis.diagnosticSeverityOverrides": {
         "reportMissingModuleSource": "none",
         "reportShadowedImports": "none"
-    }
+    },
+    "editor.minimap.autohide": true,
+    "autoHide.autoHidePanel": false,
+    "autoHide.autoHideLeftSideBar": true,
+    "autoHide.autoHideReferences": true,
+    "autoHide.autoHideRightSideBar": true,
+    "autoHide.hideOnOpen": true,
+    "autoHide.hidePanelOnDebug": true,
+    "autoHide.hideSideBarsOnDebug": true
 }
